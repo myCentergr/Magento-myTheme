@@ -1,0 +1,71 @@
+/*--------- Main menu ---------*/
+.nav-primary li.level0 > a {
+
+}
+
+/*--------- Product List ---------*/
+#products-list a.button {
+  border-radius: 15px;
+}
+#products-list button.btn-cart {
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 7px 23px;
+}
+#products-list a.product-image {
+  width: 150px;
+  float: left;
+  margin-right: 5px;
+}
+#products-list a.product-image img {
+  width: 150px;
+}
+
+.products-list div.product-shop {
+  float: none;
+  width: 100%;
+  position: relative;
+}
+.products-list div.product-shop div.desc {
+  position: absolute;
+  left: 155px;
+  top: 40px;
+  width: 60%;
+}
+
+/*--------- Product Details ---------*/
+div.grouped-items-table-wrapper {
+  border: none;
+}
+div.grouped-items-table-wrapper table.grouped-items-table tr {
+  background-color: lightgray;
+}
+
+/*--------- My Dashboard ---------*/
+.my-account div.col-left {
+    background-color: #EBEDF0;
+    padding-left: 5px;
+}
+.my-account div.box-account {
+    border: 1px solid #CCC;
+    background-color: #F9F9F9;
+}
+.my-account div.box-head {
+    background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.14, #FFFFFF),
+	color-stop(1, #C7C7C7));
+    background-image: -o-linear-gradient(bottom, #FFFFFF 14%, #C7C7C7 100%);
+    background-image: -moz-linear-gradient(bottom, #FFFFFF 14%, #C7C7C7 100%);
+    background-image: -webkit-linear-gradient(bottom, #FFFFFF 14%, #C7C7C7 100%);
+    background-image: -ms-linear-gradient(bottom, #FFFFFF 14%, #C7C7C7 100%);
+    background-image: linear-gradient(to bottom, #FFFFFF 14%, #C7C7C7 100%);
+    margin-top: 0px;
+    padding: 3px 0 3px 5px;
+}
+.my-account div.box {
+    padding-left: 5px;
+}
